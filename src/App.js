@@ -62,6 +62,12 @@ class App extends React.Component {
           Rule is simple, the web auto connect to your MetaMask wallet, anyone can send their ether, a random winner will take them all !
         </p>
         <p>
+          If you don't have MetaMask, get one <a href={"https://metamask.io/"} target="_blank">here</a>.
+        </p>
+        <p>
+          Get free eth on rinkeby network <a href={"https://faucets.chain.link/rinkeby"} target="_blank">here</a> to take the test.
+        </p>
+        <p>
           This contract is managed by {this.state.manager}. There are currently{" "}
           {this.state.players.length} people entered, competing to win{" "}
           {web3.utils.fromWei(this.state.balance, "ether")} ether!
